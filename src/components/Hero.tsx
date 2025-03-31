@@ -1,5 +1,5 @@
 import { Hero_Content } from '../constants';
-import profilePic from '../assets/Olola Profile.jpg';
+import profilePic from '../assets/kiitan.jpg';
 import { motion } from "motion/react";
 
 const Hero = () => {
@@ -27,7 +27,7 @@ const Hero = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className="pb-16 text-6xl  font-thin tracking-tight lg:mt-16 lg:text-8xl">Akinbusola Akinola</motion.h1>
+                            className="pb-16 text-6xl  font-thin tracking-tight lg:mt-16 lg:text-8xl">Alabi Ridwan Olakitan</motion.h1>
 
                         <motion.span
                             variants={container(0.5)}
@@ -50,7 +50,7 @@ const Hero = () => {
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ delay: 1.2, duration: 1 }}
                         src={profilePic} 
-                        alt="Akinbiusola Akinola" 
+                        alt="Alabi Ridwan Olakitan" 
                         className='rounded-2xl' />
                     </div>
                 </div>

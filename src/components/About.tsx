@@ -1,4 +1,4 @@
-import aboutImage from '../assets/Olola Profile 2.jpg'
+import aboutImage from '../assets/kittt.jpg'
 import { About_Content } from '../constants'
 import { motion } from "motion/react";
 
