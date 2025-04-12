@@ -1,5 +1,5 @@
-// import todo from '../assets/todo.png';
-// import validation from '../assets/validation.png';
+import dashboard from '../assets/saving.png';
+import card from '../assets/flippingcard.png';
 import Portfolio from '../assets/portp.png';
 import Shopping from '../assets/clothings.png';
 import Ecommerce from '../assets/elegance.png';
@@ -70,23 +70,23 @@ export const Projects = [
         technologies: ["React.js","Tailwind CSS", "Node.js"],
         gitHub: "/",
         live: "https://web-dev-portfolio-soni-git-main-alabi-ridwans-projects.vercel.app/"
+    },
+    {
+        title: "Saving Dashboard",
+        Image: dashboard,
+        description: `Welcome to my Savings Dashboard, a web application designed to help users track their financial goals, monitor progress, and make informed decisions about their savings. Built using React, JavaScript, and TypeScript, this project showcases my ability to create intuitive, dynamic, and responsive applications.`,
+        technologies: ["React.js", "Node.js", "JavaScript"],
+        gitHub: "/",
+        live: "https://saving-dashboard.vercel.app/"
+    },
+    {
+        title: "Flipping Card",
+        Image: card,
+        description: `This Flipping Card project showcases my ability to create interactive and visually appealing UI elements using HTML, CSS, and JavaScript. The card flips on hover, offering a seamless and dynamic effect that can be used for displaying content like personal information, products, or team members in a fun and engaging way.`,
+        technologies: ["HTML", "CSS", "JavaScript"],
+        gitHub: "/",
+        live: "https://flipping-card-tawny.vercel.app/"
     }
-    // {
-    //     title: "To-Do List",
-    //     Image: todo,
-    //     description: `A simple and intuitive to-do list application that allows users to add and delete tasks, helping them stay organized and productive.`,
-    //     technologies: ["EJS", "Node.js", "JavaScript"],
-    //     gitHub: "https://github.com/OlolaJaco/Backend-TodoList-Angela-Yu.git",
-    //     live: "https://backend-todolist-zy16.onrender.com/"
-    // },
-    // {
-    //     title: "Contact Form Validation",
-    //     Image: validation,
-    //     description: `A contact form with client-side validation that ensures users enter correct information before submitting, reducing errors and improving data quality.`,
-    //     technologies: ["HTML", "CSS", "JavaScript"],
-    //     gitHub: "https://github.com/OlolaJaco/Validation-Form.git",
-    //     live: "https://ololajaco.github.io/Validation-Form/"
-    // }
 ]
 
 export const Contact = {
@@ -94,3 +94,4 @@ export const Contact = {
     phone: "+234 808 662 3211",
     email: "alabiridolakitan487@gmail.com"
 }
+
